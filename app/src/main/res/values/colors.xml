@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="music_genres">#000000</color>
+    <color name="genre_winter_wonderland">#2dc0ff</color>
+    <color name="genre_ukelele_christmas">#774d1d</color>
+    <color name="genre_kids_stuff">#ff9900</color>
+</resources>

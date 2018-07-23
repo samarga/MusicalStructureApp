@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/music_genres"
+            style="@style/GenreStyle"
+            android:background="@color/music_genres"
+            android:text="@string/music_genres" />
+
+        <TextView
+            android:id="@+id/winter_wonderland"
+            style="@style/GenreStyle"
+            android:background="@color/genre_winter_wonderland"
+            android:text="@string/genre_winter_wonderland" />
+
+        <TextView
+            android:id="@+id/ukulele_christmas"
+            style="@style/GenreStyle"
+            android:background="@color/genre_ukelele_christmas"
+            android:text="@string/genre_ukelele_christmas" />
+
+        <TextView
+            android:id="@+id/kids_stuff"
+            style="@style/GenreStyle"
+            android:background="@color/genre_kids_stuff"
+            android:text="@string/genre_kids_stuff" />
+
+    </LinearLayout>
+

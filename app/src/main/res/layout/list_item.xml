@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/musicNote_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="♫" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="►" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="■" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/songName_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Holly And The Ivy" />
+        <LinearLayout
+            android:id="@+id/composer_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/by_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/by" />
+        <TextView
+            android:id="@+id/songComposer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Cecil Sharp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

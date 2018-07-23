@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="music_genres">Select a Music Genre to Listen to Below</string>
+    <string name="genre_winter_wonderland">Winter Wonderland</string>
+    <string name="genre_ukelele_christmas">A Ukelele Christmas</string>
+    <string name="genre_kids_stuff">Kids Stuff</string>
+    <string name="by">By:\ </string>
+</resources>
