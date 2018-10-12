@@ -23,12 +23,15 @@
         -->
         <activity
             android:name=".WinterWonderlandActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/genre_winter_wonderland" />
         <activity
             android:name=".UkeleleChristmasActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/genre_ukelele_christmas" />
         <activity
             android:name=".KidsStuffActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/genre_kids_stuff" />
     </application>
 
